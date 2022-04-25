@@ -1,0 +1,45 @@
+html {
+  min-width: 0;
+  font-family: "Heebo", sans-serif;
+  color: #333;
+  background: #eee;
+  padding: 10px 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.4em;
+  margin: 0.2em;
+}
+h2,
+h3 {
+  font-weight: 500;
+  color: #4f4f4f;
+  margin: 0px;
+}
+h2 {
+  font-size: 1.8em;
+  transition: 0.2s ease;
+}
+h3 {
+  font-size: 1.4em;
+}
+h4,
+h5 {
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 0.9px;
+  color: #636363;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  margin: 0.5em 0px 0.5em 0px;
+}
+a {
+  transition: 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+a h2:hover {
+  color: #0f9ebd;
+}
