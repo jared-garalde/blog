@@ -43,3 +43,104 @@ a {
 a h2:hover {
   color: #0f9ebd;
 }
+
+/*grid mobile first*/
+.container {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+  grid-template-areas:
+    "hd hd hd hd"
+    "sd sd sd sd"
+    "feat feat feat feat"
+    "main main main main"
+    "ft ft ft ft";
+}
+.header {
+  grid-area: hd;
+}
+.feature {
+  grid-area: feat;
+}
+.previous {
+  grid-area: main;
+}
+.description {
+  padding: 2em 1.5em;
+}
+.sidebar {
+  grid-area: sd;
+}
+.links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.icon {
+  padding: 1em 0.25em 0em 0.25em;
+}
+.foot {
+  display: flex;
+  grid-area: ft;
+  justify-content: center;
+  align-items: center;
+  color: #828282;
+}
+.card {
+  background: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #aaa;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.card article {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box {
+  padding: 1.2em;
+}
+.thumb {
+  padding-bottom: 35%;
+  background-size: cover;
+  background-position: center 70%;
+  height: 50%;
+  border-radius: 10px 10px 0px 0px;
+}
+.post-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.post-footer img {
+  padding: 0em 0.5em 0em 0em;
+}
+.date {
+  color: #828282;
+}
+.avatar {
+  background-size: cover;
+  padding-bottom: 100%;
+  height: 100%;
+  margin-bottom: 1.2em;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #aaa;
+}
+.btn {
+  border-radius: 10px;
+  border: 0;
+  padding: 0 20px;
+  font-size: 1em;
+  margin: 8px 0px;
+  color: #fff;
+  background-color: #0f9ebd;
+}
