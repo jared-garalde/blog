@@ -42,4 +42,85 @@ a {
 a:hover {
   color: #0f9ebd;
 }
+time {
+  padding: 0em 0em 0em 0.2em;
+}
+/* grid */
+.container {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+  grid-template-areas:
+    "hd hd hd hd"
+    "info info info info"
+    "main main main main"
+    "ft ft ft ft";
+}
+.box {
+  padding: 1.2em;
+}
+.header {
+  grid-area: hd;
+}
+.post-header {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.2em;
+}
+.description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #828282;
+  padding: 0em 0em 1.2em 0em;
+}
+.post {
+  grid-area: main;
+  padding: 0em 2em 0em 2em;
+}
+.foot {
+  grid-area: ft;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#img-1 {
+  background-image: url(../img/running.jpg);
+  padding-bottom: 70%;
+  background-size: cover;
+  background-position: center 70%;
+  height: 50%;
+}
+#img-2 {
+  background-image: url(../img/music.jpg);
+  padding-bottom: 70%;
+  background-size: cover;
+  background-position: center 70%;
+  height: 50%;
+}
+#img-3 {
+  background-image: url(../img/programming.jpg);
+  padding-bottom: 70%;
+  background-size: cover;
+  background-position: center 70%;
+  height: 50%;
+}
+#img-4 {
+  background-image: url(../img/burnout.jpg);
+  padding-bottom: 70%;
+  background-size: cover;
+  background-position: center 70%;
+  height: 50%;
+}
+#img-5 {
+  background-image: url(../img/painting.jpg);
+  padding-bottom: 70%;
+  background-size: cover;
+  background-position: center 70%;
+  height: 50%;
+}
 
