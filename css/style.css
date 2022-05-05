@@ -144,3 +144,24 @@ a h2:hover {
   color: #fff;
   background-color: #0f9ebd;
 }
+
+/*post*/
+#img-feat {
+  background-image: url(../img/running.jpg);
+  padding-bottom: 70%;
+}
+#img-2 {
+  background-image: url(../img/music.jpg);
+}
+#img-3 {
+  background-image: url(../img/programming.jpg);
+}
+#img-4 {
+  background-image: url(../img/burnout.jpg);
+}
+#img-5 {
+  background-image: url(../img/painting.jpg);
+}
+#jared {
+  background-image: url(../img/jared-sketch-large.PNG);
+}
