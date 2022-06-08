@@ -89,21 +89,21 @@ time {
   align-items: center;
 }
 #img-1 {
-  background-image: url(../img/running.jpg);
+  background-image: url(../img/frog.jpg);
   padding-bottom: 70%;
   background-size: cover;
   background-position: center 70%;
   height: 50%;
 }
 #img-2 {
-  background-image: url(../img/music.jpg);
+  background-image: url(../img/musubi.jpg);
   padding-bottom: 70%;
   background-size: cover;
   background-position: center 70%;
   height: 50%;
 }
 #img-3 {
-  background-image: url(../img/programming.jpg);
+  background-image: url(../img/parasail.jpg);
   padding-bottom: 70%;
   background-size: cover;
   background-position: center 70%;
