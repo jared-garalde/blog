@@ -165,3 +165,28 @@ a h2:hover {
 #jared {
   background-image: url(../img/jared-sketch-large.PNG);
 }
+/*computer screen grid*/
+@media (min-width: 900px) {
+  body {
+    margin: 20px 100px 0px 100px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+      "hd hd hd hd hd hd hd hd hd hd hd hd"
+      "feat feat feat feat feat feat feat feat feat sd sd sd"
+      "main main main main main main main main main sd sd sd"
+      "ft ft ft ft ft ft ft ft ft ft ft ft";
+  }
+  .previous {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+  }
+  #img-feat {
+    padding-bottom: 35%;
+  }
+}
