@@ -41,7 +41,7 @@ a {
   color: inherit;
 }
 a h2:hover {
-  color: #0f9ebd;
+  color: #00657e;
 }
 
 /*grid mobile first*/
@@ -87,7 +87,7 @@ a h2:hover {
   grid-area: ft;
   justify-content: center;
   align-items: center;
-  color: #828282;
+  color: #252522;
 }
 .card {
   background: #fff;
@@ -125,7 +125,7 @@ a h2:hover {
   padding: 0em 0.5em 0em 0em;
 }
 .date {
-  color: #828282;
+  color: #252525;
 }
 .avatar {
   background-size: cover;
@@ -142,7 +142,7 @@ a h2:hover {
   font-size: 1em;
   margin: 8px 0px;
   color: #fff;
-  background-color: #0f9ebd;
+  background-color: #04303a;
 }
 /*collapsible content */
 .toggle {
@@ -152,7 +152,7 @@ a h2:hover {
   font-size: 1em;
   margin: 8px 0px;
   color: #fff;
-  background-color: #0f9ebd;
+  background-color: #00657e;
 }
 .active,
 .toggle:hover {
