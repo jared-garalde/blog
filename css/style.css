@@ -144,6 +144,30 @@ a h2:hover {
   color: #fff;
   background-color: #0f9ebd;
 }
+/*collapsible content */
+.toggle {
+  border-radius: 5px;
+  border: 0;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 8px 0px;
+  color: #fff;
+  background-color: #0f9ebd;
+}
+.active,
+.toggle:hover {
+  background-color: rgb(90, 93, 94);
+}
+
+.content {
+  padding: 0px 10px;
+  border-radius: 10px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  box-shadow: 2px 2px 8px #aaa;
+}
 
 /*post*/
 #img-feat {
